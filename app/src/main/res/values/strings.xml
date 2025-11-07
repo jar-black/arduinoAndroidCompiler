@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arduino Compiler</string>
+
+    <!-- Navigation -->
+    <string name="nav_projects">Projects</string>
+    <string name="nav_editor">Editor</string>
+    <string name="nav_compile">Compile</string>
+    <string name="nav_upload">Upload</string>
+    <string name="nav_monitor">Monitor</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Projects Screen -->
+    <string name="projects_title">My Projects</string>
+    <string name="projects_create">Create Project</string>
+    <string name="projects_import">Import Project</string>
+    <string name="projects_empty">No projects yet. Create one to get started!</string>
+
+    <!-- Editor Screen -->
+    <string name="editor_title">Code Editor</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_undo">Undo</string>
+    <string name="editor_redo">Redo</string>
+
+    <!-- Compile Screen -->
+    <string name="compile_title">Compile</string>
+    <string name="compile_select_board">Select Board</string>
+    <string name="compile_start">Compile</string>
+    <string name="compile_success">Compilation successful!</string>
+    <string name="compile_failed">Compilation failed</string>
+    <string name="compile_in_progress">Compiling…</string>
+
+    <!-- Upload Screen -->
+    <string name="upload_title">Upload</string>
+    <string name="upload_select_device">Select Device</string>
+    <string name="upload_start">Upload</string>
+    <string name="upload_success">Upload successful!</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="upload_in_progress">Uploading…</string>
+    <string name="upload_no_device">No device connected</string>
+
+    <!-- Monitor Screen -->
+    <string name="monitor_title">Serial Monitor</string>
+    <string name="monitor_start">Start</string>
+    <string name="monitor_stop">Stop</string>
+    <string name="monitor_clear">Clear</string>
+    <string name="monitor_send">Send</string>
+    <string name="monitor_baud_rate">Baud Rate</string>
+    <string name="monitor_save_log">Save Log</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_default_board">Default Board</string>
+    <string name="settings_editor_theme">Editor Theme</string>
+    <string name="settings_font_size">Font Size</string>
+    <string name="settings_about">About</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="export">Export</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="loading">Loading…</string>
+
+    <!-- Boards -->
+    <string name="board_uno">Arduino Uno</string>
+    <string name="board_nano">Arduino Nano</string>
+    <string name="board_mega">Arduino Mega 2560</string>
+    <string name="board_leonardo">Arduino Leonardo</string>
+    <string name="board_esp32">ESP32 Dev Module</string>
+    <string name="board_esp8266">ESP8266</string>
+
+    <!-- USB Permission -->
+    <string name="usb_permission_title">USB Permission Required</string>
+    <string name="usb_permission_message">This app needs permission to access the USB device to upload code to your Arduino.</string>
+    <string name="usb_permission_denied">USB permission denied. Cannot connect to device.</string>
+
+    <!-- Errors -->
+    <string name="error_no_project">No project selected</string>
+    <string name="error_compilation">Compilation error occurred</string>
+    <string name="error_upload">Upload error occurred</string>
+    <string name="error_usb_connection">Failed to connect to USB device</string>
+    <string name="error_file_read">Failed to read file</string>
+    <string name="error_file_write">Failed to write file</string>
+</resources>
